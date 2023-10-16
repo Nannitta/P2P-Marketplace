@@ -1,0 +1,110 @@
+.product-page-container {
+  background: var(--secondryBackgroundColor);
+  border-radius: 1.5rem;
+  box-shadow: var(--boxShadow);
+  width: 60%;
+}
+
+.user-info-product-page {
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+  position: relative;
+}
+
+.user-info-product-page > a > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.user-info-product-page > a {
+  color: var(--mainFontColor);
+}
+
+.user-info-product-page > a > div > img {
+  width: 56px;
+  height: 56px;
+}
+
+.user-info-product-page .MuiRating-root.MuiRating-sizeMedium.Mui-readOnly.MuiRating-readOnly.css-ryrseu-MuiRating-root {
+  position: absolute;
+  top: 25px;
+  left: 115px;
+}
+
+.product-page-article {
+  display: flex;
+  gap: 2.5rem;
+  padding: 0 3rem 2rem 3rem;
+}
+
+.product-sale-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.product-sale-info > h2 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.product-sale-info > p:nth-child(2) {
+  text-align: left;
+  background: rgba(64, 61, 57, 0.63);
+  padding: 0.6rem 1.2rem;
+  border-radius: 2.5rem;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.product-sale-info > p:nth-child(3) {
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.city-state-product-page {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.city-state-product-page > p:nth-child(1) {
+  font-size: 0.7rem;
+  color: var(--subtitleColor);
+}
+
+.product-sale-info > button {
+  margin-top: 1rem;
+  align-self: flex-end;
+  width: 10rem;
+}
+
+.product-sale-info > p:nth-child(5) {
+  align-self: flex-end;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+@media (min-width: 1920px), (min-height: 1080px) {
+  .product-page-container {
+    width: 55%;
+  }
+
+  .product-sale-info > a {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .product-sale-info > a > button {
+    width: 10rem;
+  }
+}

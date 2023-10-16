@@ -1,0 +1,63 @@
+.edit-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--secpndaryBackgroundColor);
+  border-radius: 40px;
+  box-shadow: var(--boxShadow);
+  width: 80%;
+  height: 100%;
+}
+
+.edit-info-form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.name-lastname-info, .city-loc-info, .tel-email-info, .edit-password-info {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+
+#bio {
+  height: 10rem;
+}
+
+.name-lastname-info > label > input,
+.city-loc-info > label > input,
+.tel-email-info > label > input,
+.edit-password-info > label > input {
+  width: 25rem;
+}
+
+.edit-avatar-label {
+  width: 25rem;
+  border: none;
+  outline: none;
+  background: var(--blackGradient);
+  color: var(--mainFontColor);
+  box-shadow: var(--boxShadow);
+  padding: 1rem;
+  border-radius: 2.5rem;
+}
+
+.edit-avatar-label:hover {
+  box-shadow: var(--inputHoverBoxShadow);
+}
+
+.edit-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 1920px), (min-height: 1080px) {
+  .edit-info-container {
+    width: 55%;
+  }
+}

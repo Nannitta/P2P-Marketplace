@@ -1,0 +1,13 @@
+.secondaryButton {
+  padding: 0.8rem 3rem;
+color: var(--secondaryFontColor);
+font-family: 'Poppins';
+font-weight: bolder;
+border:1px solid var(--secondaryFontColor);
+background-color: transparent;
+border-radius: 2.5rem;
+}
+
+.secondaryButton:hover {
+transform: scale(1.2);
+}

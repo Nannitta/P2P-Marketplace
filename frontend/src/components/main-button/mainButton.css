@@ -1,0 +1,13 @@
+.mainButton {
+    padding: 0.8rem 1.5rem;
+	background: var(--orangeGradient);
+	color: var(--mainFontColor);
+	font-family: 'Poppins';
+	font-weight: bolder;
+	border: none;
+	border-radius: 2.5rem;
+}
+
+.mainButton:hover {
+	transform: scale(1.2);
+}

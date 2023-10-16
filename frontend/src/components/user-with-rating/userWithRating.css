@@ -1,0 +1,11 @@
+.profile-avatar,
+.container-profile-avatar > img {
+  border-radius: 100%;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+
+.container-profile-avatar {
+  width: auto;
+}

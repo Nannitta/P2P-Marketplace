@@ -1,0 +1,147 @@
+.add-product-form {
+  min-height: 70vh;
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 1.5rem;
+  box-shadow: var(--boxShadow);
+}
+
+.add-product-form > h1 {
+  font-size: 1rem;
+  font-weight: bolder;
+  width: 100%;
+  text-align: left;
+  margin: 1.5rem 0 0 3rem;
+}
+
+.container-add-product-form {
+  display: flex;
+  gap: 2rem;
+}
+
+.container-add-product-form #title {
+  width: 25rem;
+}
+
+.container-add-product-form #category, 
+.container-add-product-form #state,
+.image-input {
+  border: none;
+  outline: none;
+  background: var(--blackGradient);
+  color: var(--mainFontColor);
+  box-shadow: var(--boxShadow);
+  padding: 1rem;
+  border-radius: 2.5rem;
+  width: 25rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+option {
+  background: rgba(64, 61, 57);
+  color: var(--mainFontColor);
+}
+
+.container-add-product-form #category:hover,
+.container-add-product-form #state:hover {
+  box-shadow: var(--inputHoverBoxShadow);
+}
+
+.image-input::file-selector-button {
+  background: transparent;
+  border: none;
+  color: var(--mainFontColor);
+}
+
+.price-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 48%;
+}
+
+input[name='price']::-webkit-outer-spin-button, 
+input[name='price']::-webkit-inner-spin-button, 
+input[name='price']::-webkit-outer-spin-button,
+input[name='price']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.price-input > label > input {
+  width: 4.5rem;
+  border-radius: 0.65rem;
+  text-align: center;
+}
+
+.container-add-product-form.state-price {
+  justify-content: space-between;
+  width: 87%;
+}
+
+.textArea {
+  width: 52rem;
+  height: 6rem;
+}
+
+.container-image-input {
+  display: flex;
+  gap: 1.3rem;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container-image-input > p {
+  font-size: 0.7rem;
+  color: var(--placeHolderFontColor);
+}
+
+.image-input {
+  width: 25rem;
+  align-self: flex-start;
+  margin-left: 3.9rem;
+}
+
+.container-form-buttons {
+  margin: 0 0 1rem 0;
+  display: flex;
+  gap: 1.3rem;
+  width: 100%;
+  justify-content: flex-end;
+  margin-right: 7.7rem;
+}
+
+.image-input-label {
+  border: none;
+  outline: none;
+  background: var(--blackGradient);
+  color: var(--mainFontColor);
+  box-shadow: var(--boxShadow);
+  padding: 1rem;
+  border-radius: 2.5rem;
+  margin-left: 3.5rem;
+}
+
+.image-input-label:hover {
+  box-shadow: var(--inputHoverBoxShadow);
+}
+
+.image-input-label:focus {
+  color: var(--inputFocus);
+}
+
+@media (min-width: 1920px), (min-height: 1080px) {
+  .add-product-form {
+    width: 50vw;
+    min-height: 54vh;
+  }
+  .image-input-label {
+    margin-left: 3.8rem;
+  }
+}

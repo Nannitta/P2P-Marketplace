@@ -1,0 +1,176 @@
+.sellers-pending-section, .sellers-reject-section, .sellers-accept-section {
+  background: var(--secondryBackgroundColor);
+  box-shadow: var(--boxShadow);
+  width: 70%;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.sellers-pending-section > ul,
+.sellers-reject-section > ul, 
+.sellers-accept-section > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.3rem;
+  flex-direction: column;
+}
+
+.sellers-pending-section > ul > h2 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  align-self: flex-start;
+  padding: 1rem 0 1rem 2rem;
+}
+
+#pendingOrders > li,
+#rejetedOrders > li,
+#acceptedOrders > li {
+  background: var(--blackGradient);
+  border-radius: 1.5rem;
+  width: 95%;
+}
+
+.product-on-sale-card {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+}
+
+.img-container-product-sale {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.img-container-product-sale > img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 1.5rem;
+}
+
+.container-title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.container-title-price > h2,
+.container-title-price > p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.info-product-sale {
+  width: 100%;
+  padding: 0.5rem 3rem 0 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.info-product-sale > p:nth-child(2) {
+  font-size: 0.8rem;
+  text-align: left;
+}
+
+.buyer-info-rating {
+  position: relative;
+}
+
+.buyer-info-rating .MuiRating-root.MuiRating-sizeMedium.Mui-readOnly.MuiRating-readOnly.css-ryrseu-MuiRating-root {
+  position: absolute;
+  top: 3px;
+  left: 67px;
+}
+
+.buyer-info-rating > a > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.buyer-info-rating > a {
+  color: var(--mainFontColor);
+}
+
+.buyer-info-rating > a > div > img {
+  width: 56px;
+  height: 56px;
+}
+
+.buyer-info-footer-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.buyer-info-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.buyer-info-buttons > button {
+  font-size: 0.8rem;
+  padding: 0.5rem 2rem;
+}
+
+.info-order-user-buyer {
+  font-size: 0.6rem;
+  color: var(--subtitleColor);
+}
+
+#rejetedOrders {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.3rem;
+  gap: 1rem;
+}
+
+.sellers-reject-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.sellers-reject-section > h2 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  align-self: flex-start;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.sellers-accept-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sellers-accept-section > h2 {
+  font-size: 1.2rem;
+  padding: 1rem 0 1rem 2rem;
+  font-weight: bold;
+  align-self: flex-start;
+}
+
+#acceptedOrders {
+  width: 95%;
+  border-radius: 1.5rem;
+  margin-bottom: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+#acceptedOrders > li > a {
+  color: var(--mainFontColor);
+}
+
+@media (min-width: 1920px), (min-height: 1080px) {
+  .sellers-pending-section, .sellers-reject-section, .sellers-accept-section {
+    width: 55%;
+  }
+}

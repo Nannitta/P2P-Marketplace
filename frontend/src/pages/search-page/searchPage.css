@@ -1,0 +1,32 @@
+main.search-page-main {
+  display: flex;
+}
+
+main.search-page-main > h1 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  text-align: left;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+main.search-page-main > ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+}
+
+@media (min-width: 1920px), (min-height: 1080px) {
+  main.search-page-main {
+    justify-content: flex-start;
+  }
+  
+  main.search-page-main > h1 {
+    width: 80%;
+  }
+
+  main.search-page-main > ul {
+    width: 80%;
+  }
+}

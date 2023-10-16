@@ -1,0 +1,40 @@
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  background-color: var(--mainBackgroundColor) !important;
+  color: var(--mainFontColor) !important;
+  border-radius: 1.25rem !important;
+}
+
+.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root {
+  color: var(--mainFontColor) !important;
+}
+
+.MuiButtonBase-root.MuiMenuItem-root.MuiMenuItem-gutters.MuiMenuItem-root.MuiMenuItem-gutters.css-kk1bwy-MuiButtonBase-root-MuiMenuItem-root:hover {
+  color: var(--secondaryFontColor) !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  padding: 0 !important;
+  text-transform: none !important;
+  font-family: 'Poppins' !important;
+  font-weight: bold !important;
+  font-size: 1rem !important;
+}
+
+.edited-avatar {
+  display: flex;
+  align-items: center;
+  color: var(--mainFontColor);
+  margin-right: 2rem;
+}
+
+.edited-avatar-container {
+  width: auto;
+}
+
+.edited-avatar > div > img {
+  width: 56px;
+  height: 56px;
+  margin-left: 0.5rem;
+  border-radius: 100%;
+  object-fit: cover;
+}

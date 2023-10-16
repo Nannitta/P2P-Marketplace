@@ -1,0 +1,16 @@
+.product-list-home {
+  margin-top: 2.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.6rem;
+  row-gap: 2rem;
+  justify-content: center;
+}
+
+.product-list-home > li > a {
+  text-decoration: none;
+}
+
+.product-list-home > li {
+  width: 200px;
+}

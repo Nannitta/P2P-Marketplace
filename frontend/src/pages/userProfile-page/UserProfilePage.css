@@ -1,0 +1,277 @@
+.main-profile-page {
+  width: 95%;
+  display: grid;
+  grid-template-rows: 100px 1fr;
+  grid-template-columns: 169px 1fr;
+  justify-items: center;
+  align-self: center;
+}
+
+.profileMenu{
+  background: var(--secondaryBackgroundColor);
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  padding: 3rem 2rem;
+  gap: 3rem;
+  margin-left: 14.5rem;
+  grid-area: 2 / 1 / 3 / 2;
+  box-shadow: var(--boxShadow);
+  align-self: flex-start;
+}
+
+.profileMenu > a > p {
+  margin-top: 0.3rem;
+}
+
+.profileMenu > a > p:hover {
+  color: var(--secondaryFontColor);
+  cursor: pointer;
+}
+
+.user-info-profile {
+  width: 80%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+  background: var(--secondaryBackgroundColor);
+  box-shadow: var(--boxShadow);
+  border-radius: 1.5rem;
+  position: relative;
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.user-info-profile > a {
+  color: var(--mainFontColor);
+}
+
+.user-info-profile > a > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.user-info-profile > a > div > img {
+  width: 56px;
+  height: 56px;
+}
+
+.tel-location-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tel-location-container > p, .tel-location-container > p > a {
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+  color: var(--mainFontColor);
+}
+
+.tel-location-container > p > a:hover {
+  color: var(--secondaryFontColor);
+}
+
+.icon-profile {
+  width: 24px;
+  height: 24px;
+}
+
+.user-info-profile .MuiRating-root.MuiRating-sizeMedium.Mui-readOnly.MuiRating-readOnly.css-ryrseu-MuiRating-root {
+  position: absolute;
+  top: 25px;
+  left: 115px;
+}
+
+section.products-sale {
+  background: var(--secondaryBackgroundColor);
+  width: 73%;
+  height: 98%;
+  min-height: 336px;
+  grid-area: 2 / 2 / 3 / 3;
+  align-self: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0.3rem 0 1rem 2rem;
+  border-radius: 1.5rem;
+}
+
+#productsOnSale {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+#productsOnSale > li {
+  height: 316px;
+}
+
+#productsOnSale > li > a {
+  display: flex;
+  width: 200px;
+}
+
+section.user-reviews-list {
+  grid-area: 2 / 2 / 3 / 3;
+  background: var(--secondaryBackgroundColor);
+  width: 73%;
+  height: 96%;
+  margin-left: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: var(--boxShadow);
+}
+
+.image-product-reviewed {
+  width: auto;
+}
+
+#userReviews {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+#userReviews > li {
+  display: flex;
+  background: var(--blackGradient);
+  border-radius: 1.5rem;
+  width: 95%;
+  margin-top: 1rem;
+}
+
+.image-product-reviewed > img {
+  object-fit: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 1.5rem;
+  margin: 1.3rem 1.3rem;
+}
+
+.review-info-product {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-info-product > h2 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-align: left;
+  margin: 1.3rem 0 0.5rem 0;
+}
+
+.MuiRating-root.MuiRating-sizeMedium.Mui-readOnly.MuiRating-readOnly.css-ryrseu-MuiRating-root {
+  margin-bottom: 0.5rem;
+}
+
+.review-info-product > p {
+  font-size: 0.7rem;
+  text-align: left;
+  margin-bottom: 1.3rem;
+}
+
+.buyer-info {
+  font-size: 0.6rem;
+  text-align: left;
+  color: var(--subtitleColor);
+} 
+
+section.user-info-verified {
+  grid-area: 2 / 2 / 3 / 3;
+  width: 77%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2rem;
+  gap: 1rem;
+}
+
+.user-info-verified > article {
+  background: var(--blackGradient);
+  border-radius: 1.5rem;
+  min-height: 8rem;
+  width: 42rem;
+}
+
+.user-info-verified > article > h2 {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: left;
+  padding: 1.3rem 0 1rem 1.5rem;
+}
+
+.user-info-verified > article > p {
+  text-align: left;
+  padding-left: 1.3rem;
+  font-weight: 100;
+  font-size: 0.8rem;
+}
+
+.verified-phone-email {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 0.6rem;
+}
+
+.icon-verified {
+  display: flex;
+  padding-left: 1.3rem;
+  gap: 1rem;
+  font-size: 0.7rem;
+}
+
+.icon-verified > img {
+  width: 20px;
+}
+
+.products-sale span.not-products-sale,
+.user-reviews-list h5.not-reviews-yet {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-reviews-list > h5 {
+  font-size: 1rem;
+}
+
+@media (min-width: 1920px), (min-height: 1080px)  {
+  .main-profile-page {
+    width: 85%;
+  }
+
+  .profileMenu {
+    margin-left: 19.3rem;
+  }
+
+  #productsOnSale {
+    align-items: flex-start;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  section.user-reviews-list {
+    margin-left: 4.3rem;
+  }
+
+  section.user-info-verified {
+    height: 90%;
+  }
+
+  .user-info-verified > article {
+    width: 56rem;
+    margin-left: 2.4rem;
+  }
+}

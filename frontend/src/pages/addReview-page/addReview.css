@@ -1,0 +1,113 @@
+.general-container-addreview {
+  background: var(--secondryBackgroundColor);
+  border-radius: 1.5rem;
+  box-shadow: var(--boxShadow);
+  width: 70%;
+  padding: 1.3rem 3rem 2rem 3rem;
+}
+
+.general-container-addreview > h1 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.add-review-conatiner {
+  display: flex;
+  gap: 6rem;
+}
+
+.product-img-review {
+  width: auto;
+}
+
+.product-img-review > img {
+  width: 275px;
+  height: 275px;
+  border-radius: 1.5rem;
+  margin-top: 1rem;
+}
+
+.info-user-review {
+  position: relative;
+}
+
+.info-user-review .MuiRating-root.MuiRating-sizeMedium.Mui-readOnly.MuiRating-readOnly.css-ryrseu-MuiRating-root {
+  position: absolute;
+  top: 5px;
+  left: 70px;
+}
+
+.info-user-review > a > div > img  {
+  width: 56px;
+  height: 56px;
+}
+
+.info-user-review > a {
+  color: var(--mainFontColor);
+}
+
+.info-user-review > a > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.form-section-review {
+  width: 52%;
+}
+
+.form-addreview {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.form-addreview > label > input,
+.form-addreview > label > textarea {
+  width: 25rem;
+}
+
+.css-iljtu2-MuiRating-root {
+  font-size: 2rem !important;
+}
+
+.form-addreview > label > textarea {
+  height: 10rem;
+}
+
+.form-addreview-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}
+
+.form-addreview-buttons > button:nth-child(2) {
+  width: 9rem;
+}
+
+@media (min-width: 1920px), (min-height: 1080px) {
+  .general-container-addreview {
+    width: 50%;
+  }
+  
+  .product-img-review > img {
+    margin-top: 2.3rem;
+  }
+
+  .form-addreview > label {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .form-addreview .MuiRating-root.MuiRating-sizeMedium.css-iljtu2-MuiRating-root {
+    left: 15px;
+  }
+
+  .form-addreview-buttons {
+    margin-top: 1.3rem;
+  }
+}

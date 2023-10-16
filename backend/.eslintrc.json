@@ -1,0 +1,23 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true
+  },
+  "extends": "standard",
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "indent": ["error", 4],
+    "no-multiple-empty-lines": [
+      "error",
+      {
+        "max": 5
+      }
+    ],
+    "no-unused-vars": "warn",
+    "padded-blocks": "off"
+  }
+}

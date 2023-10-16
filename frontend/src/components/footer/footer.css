@@ -1,0 +1,16 @@
+footer {
+  margin: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.7rem;
+}
+
+footer > a > img {
+  width: 15px;
+}
+
+footer > a:hover {
+  transform: scale(1.2);
+}

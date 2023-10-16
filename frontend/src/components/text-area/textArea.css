@@ -1,0 +1,37 @@
+.textArea {
+    font-family: 'Poppins';
+    display: block;
+    background: var(--blackGradient);
+    color: var(--mainFontColor);
+    box-shadow: var(--boxShadow);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.textArea:hover {
+    box-shadow: var(--inputHoverBoxShadow);
+}
+
+.textArea::placeholder {
+    color: var(--placeHolderFontColor);
+}
+
+.textArea::-webkit-scrollbar {
+    width: 1rem;
+}
+  
+.textArea::-webkit-scrollbar-track {
+    background-color: white;
+}
+  
+.textArea::-webkit-scrollbar-thumb {
+    background: var(--orangeGradient); 
+    border-radius: 0.2rem;
+}
+  
+.textArea::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #cf430c 0%, #f18826 100%); 
+}

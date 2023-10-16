@@ -1,0 +1,22 @@
+.container-title-price > h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  align-items: baseline;
+  margin-bottom: 1rem;
+}
+
+.info-product-sale > p:nth-child(2) {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-product-sale > p:nth-child(3) {
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.info-product-sale > button {
+  font-size: 0.8rem;
+  padding: 0.5rem 2rem;
+  align-self: flex-end;
+}

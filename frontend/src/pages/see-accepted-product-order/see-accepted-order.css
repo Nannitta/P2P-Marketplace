@@ -1,0 +1,151 @@
+.accept-order-container {
+  background: var(--secondaryBackf);
+  box-shadow: var(--boxShadow);
+  border-radius: 1.5rem;
+  display: flex;
+  width: 98%;
+}
+
+.user-info-accept-order {
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+  position: relative;
+  width: 98%;
+}
+
+.user-info-accept-order > a > div {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.user-info-accept-order > a {
+  color: var(--mainFontColor);
+}
+
+.user-info-accept-order > a > div > img {
+  width: 56px;
+  height: 56px;
+}
+
+.user-info-accept-order .MuiRating-root.MuiRating-sizeMedium.Mui-readOnly.MuiRating-readOnly.css-ryrseu-MuiRating-root {
+  position: absolute;
+  top: 8px;
+  left: 115px;
+}
+
+.exchange-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0 3rem 1rem 3rem;
+}
+
+.exchange-info > h2 {
+  font-weight: bolder;
+  font-size: 0.8rem;
+  margin: 0.6rem 0;
+}
+
+.exchange-info > p {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.img-container-exchange {
+  width: auto;
+}
+
+.img-container-exchange > img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 1.5rem;
+}
+
+.title-product-exchange {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-product-exchange > h2 {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.title-product-exchange > p {
+  background: rgba(64, 61, 57, 0.63);
+  padding: 0.6rem 1.2rem;
+  border-radius: 2.5rem;
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.exchange-product-container {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-start;
+}
+
+.product-buyed > section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-buyed {
+  padding: 1rem 3rem 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.exchange-product-info > p:nth-child(1) {
+  text-align: right;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.exchange-product-info > p:nth-child(2) {
+  text-align: left;
+  margin-left: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.exchange-product-info > p:nth-child(3) {
+  font-size: 0.7rem;
+  text-align: left;
+  margin: 1rem 0 1rem 1.5rem;
+  color: var(--subtitleColor);
+}
+
+.exchange-product-info > p:nth-child(4) {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-align: right;
+}
+
+.review-pop-up {
+  align-self: flex-end;
+  border: 1px solid var(--secondaryFontColor);
+  border-radius: 1.5rem;
+  padding: 1rem 0.8rem;
+  font-size: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.review-pop-up > p > span {
+  font-size: 0.9rem;
+  font-weight: bolder;
+}
+
+@media (min-width: 1920px), (min-height: 1080px) {
+  .user-info-accept-order, .accept-order-container {
+    width: 75%;
+  } 
+}

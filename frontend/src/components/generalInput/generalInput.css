@@ -1,0 +1,21 @@
+.general-input {
+    border: none;
+    outline: none;
+    background: var(--blackGradient);
+    color: var(--mainFontColor);
+    box-shadow: var(--boxShadow);
+    padding: 1rem;
+    border-radius: 2.5rem;
+}
+
+.general-input:hover {
+    box-shadow: var(--inputHoverBoxShadow);
+}
+
+.general-input:focus {
+    color: var(--inputFocus);
+}
+
+.general-input::placeholder {
+    color: var(--placeHolderFontColor);
+}

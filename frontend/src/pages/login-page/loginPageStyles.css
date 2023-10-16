@@ -1,0 +1,66 @@
+.login-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+main.login-main div.login-image-container img.login-image {
+    width: 30rem;
+    height: 25rem;
+    object-fit: cover;
+}
+
+main.login-main div.login-form-container {
+    background: var(--secondryBackgroundColor);
+    box-shadow: var(--boxShadow);
+    border-radius: 1rem;
+    padding: 1.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+div.login-form-container form.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+form.login-form input {
+    width: 20rem;
+}
+
+form.login-form > button {
+    margin-top: 1rem;
+    width: 12rem;
+}
+
+div.no-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+div.no-account a {
+    text-decoration: none;
+    color: var(--secondaryFontColor);
+}
+
+div.no-account a:hover {
+    transform: scale(1.1);
+}
+
+p.login-error {
+    position: absolute;
+    font-size: 0.8rem;
+    color: var(--red);
+    text-align: left;
+    top: 10.3rem;
+}

@@ -1,0 +1,19 @@
+.product-page-article .carousel.slide {
+  width: 300px;
+}
+
+.product-page-article .carousel-inner {
+  width: 300px;
+  height: 300px;
+}
+
+.product-page-article .carousel-item.active,
+.product-page-article .carousel-item {
+  width: auto;
+}
+
+.product-page-article .carousel-item > img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}

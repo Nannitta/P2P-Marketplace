@@ -1,0 +1,49 @@
+.own-orders-section,
+.accepted-orders-section,
+.rejected-orders-section {
+  background: var(--secondryBackgroundColor);
+  box-shadow: var(--boxShadow);
+  width: 70%;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.own-orders-section > ul,
+.accepted-orders-section > ul,
+.rejected-orders-section > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.3rem;
+  flex-direction: column;
+}
+
+.own-orders-section > h2,
+.accepted-orders-section > h2,
+.rejected-orders-section > h2 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  align-self: flex-start;
+  padding: 1rem 0 1rem 2rem;
+}
+
+.own-orders-section > ul > li,
+.accepted-orders-section > ul > li,
+.rejected-orders-section > ul > li {
+  background: var(--blackGradient);
+  border-radius: 1.5rem;
+  width: 95%;
+  margin-bottom: 1rem;
+}
+
+.accepted-orders-section > ul > li > a {
+  color: var(--mainFontColor);
+}
+
+@media (min-width: 1920px), (min-height: 1080px) {
+  .own-orders-section, .accepted-orders-section, .rejected-orders-section {
+    width: 55%;
+  }
+}

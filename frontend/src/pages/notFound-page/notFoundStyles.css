@@ -1,0 +1,71 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-grow: 1;
+    position: relative;
+}
+
+img.game-over-image{
+    width: 8rem;
+    position: absolute;
+    top: -3rem;
+    right: 23rem;
+}
+
+
+.not-found-container > h1 {
+    font-family: 'Press Start';
+    font-size: 3rem;
+}
+
+.not-found-container > h1 > span {
+    color: var(--secondaryFontColor);
+}
+
+.not-found-container > h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.not-found-container > h2 > span {
+    font-family: 'Press Start';
+    font-size: 1.2rem;
+}
+
+.not-found-container > p {
+    font-size: 0.8rem;
+    font-weight: lighter;
+}
+
+.not-found-container > button {
+    width: 15rem;
+    margin-top: 0.8rem;
+}
+
+@media (min-width: 1920px), (min-height: 1080px) {
+    .not-found-container > h1 {
+        font-size: 6rem;
+    }
+
+    .not-found-container > h2 {
+        font-size: 2rem;
+    }
+
+    .not-found-container > h2 > span {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .not-found-container > p {
+        font-size: 1.2rem;
+    }
+
+    img.game-over-image {
+        width: 13rem;
+        top: 0;
+        right: 36rem;
+    }
+}

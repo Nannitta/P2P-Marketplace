@@ -1,0 +1,186 @@
+.exchangeset-container {
+  background: var(--secondryBackgroundColor);
+  border-radius: 1.5rem;
+  box-shadow: var(--boxShadow);
+  width: 90%;
+  padding: 1.3rem 3rem 2rem 3rem;
+}
+
+.exchangeset-container > h1 {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.exchangset-inputs {
+  background: var(--secondryBackgroundColor);
+  border-radius: 1.5rem;
+  box-shadow: var(--boxShadow);
+  padding: 2.5rem;
+}
+
+.exchangset-inputs > form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.exchangset-inputs > form > label > input {
+  width: 20rem;
+}
+
+.MuiStack-root.css-a643pv-MuiStack-root {
+  border: none;
+  outline: none;
+  background: var(--blackGradient);
+  color: var(--mainFontColor);
+  box-shadow: var(--boxShadow);
+  padding: 1rem;
+  border-radius: 2.5rem;
+}
+
+.MuiInputBase-root.MuiOutlinedInput-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.Mui-readOnly.MuiInputBase-readOnly.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  font-family: 'Poppins';
+  color: var(--placeholderColor);
+}
+
+.MuiInputBase-input.MuiOutlinedInput-input.Mui-readOnly.MuiInputBase-readOnly.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 0;
+}
+
+.MuiOutlinedInput-notchedOutline.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: none;
+}
+
+.conatiner-section-exchangeset {
+  display: flex;
+  gap: 2rem;
+}
+
+.exchangeset-info-product {
+  display: flex;
+  background: var(--secondryBackgroundColor);
+  border-radius: 1.5rem;
+  box-shadow: var(--boxShadow);
+  padding: 2rem;
+  align-items: center;
+  gap: 1.3rem;
+}
+
+.exchangeset-img-container {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.exchangeset-img-container > img {
+  width: 125px;
+  height: 125px;
+  object-fit: cover;
+  border-radius: 1.5rem;
+}
+
+.exchangset-inputs > form > button {
+  align-self: center;
+  width: 9rem;
+}
+
+.exchangeset-name-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.exchangeset-name-price > h2 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+
+.exchangeset-name-price > p {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.exchangeset-info-product-sale {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.exchangeset-info-product-sale > p:nth-child(2) {
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.exchangeset-info-product-sale > p:nth-child(3) {
+  font-size: 0.7rem;
+  color: var(--subtitleColor);
+  text-align: left;
+}
+
+.MuiDialogContent-root.css-9yjdhh-MuiDialogContent-root {
+  background: #252422;
+  color: #fffcf2;
+}
+
+.MuiTypography-root.MuiTypography-overline.css-1hbyad5-MuiTypography-root,
+.MuiTypography-root.MuiTypography-subtitle1.MuiPickersToolbarText-root.Mui-selected.css-13vtpvu-MuiTypography-root-MuiPickersToolbarText-root,
+.MuiTypography-root.MuiTypography-h4.MuiPickersToolbarText-root.css-1b9e08i-MuiTypography-root-MuiPickersToolbarText-root,
+.MuiTypography-root.MuiTypography-h3.MuiPickersToolbarText-root.css-mvmxd9-MuiTypography-root-MuiPickersToolbarText-root,
+.MuiTypography-root.MuiTypography-h3.MuiDateTimePickerToolbar-separator.MuiPickersToolbarText-root.css-1e4tpwf-MuiTypography-root-MuiPickersToolbarText-root-MuiDateTimePickerToolbar-separator,
+.MuiTypography-root.MuiTypography-subtitle2.MuiDateTimePickerToolbar-ampmLabel.MuiPickersToolbarText-root.css-7kirvq-MuiTypography-root-MuiPickersToolbarText-root,
+.MuiTypography-root.MuiTypography-subtitle1.MuiPickersToolbarText-root.css-13vtpvu-MuiTypography-root-MuiPickersToolbarText-root,
+.MuiDayCalendar-root.css-14iq4xa-MuiDayCalendar-root > div > span,
+.MuiPickersSlideTransition-root.MuiDayCalendar-slideTransition.css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition > div > div > button,
+.MuiClock-wrapper.css-1ys9rbi-MuiClock-wrapper > span {
+  color: #fffcf2;
+}
+
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+  fill: #eb5e28;
+}
+
+.MuiTabs-indicator.css-1aquho2-MuiTabs-indicator,
+.MuiClockPointer-root.css-rdq5h4-MuiClockPointer-root {
+  background-color: #eb5e28;
+}
+
+button .MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiPickersCalendarHeader-switchViewIcon.css-1tkx1wf-MuiSvgIcon-root-MuiPickersCalendarHeader-switchViewIcon,
+button .MuiSvgIcon-root.MuiSvgIcon-fontSizeInherit.css-1vooibu-MuiSvgIcon-root {
+  fill: #fffcf2;
+}
+
+.MuiDialogActions-root.MuiDialogActions-spacing.MuiPickersLayout-actionBar.css-hlj6pa-MuiDialogActions-root > button {
+  color: #eb5e28;
+}
+
+.css-1cafy48-MuiPickersSlideTransition-root-MuiDayCalendar-slideTransition {
+ min-height: 220px !important;
+}
+
+.css-jgls56-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+  border: 1px solid #fffcf2 !important;
+}
+
+.css-1u23akw-MuiButtonBase-root-MuiPickersDay-root.Mui-selected,
+.MuiClock-pin.css-umzx0k-MuiClock-pin,
+.MuiClockPointer-root.css-d0vs79-MuiClockPointer-root,
+.css-eg3pzz-MuiClockPointer-thumb {
+  background-color: #eb5e28 !important;
+}
+
+.MuiClockPointer-thumb.css-eg3pzz-MuiClockPointer-thumb,
+.MuiClockPointer-thumb.css-12t0dn4-MuiClockPointer-thumb {
+  border-color: #eb5e28 !important;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  border-radius: initial !important;
+}
+
+@media (min-width: 1920px), (min-height: 1080px) {
+  .exchangeset-container {
+    width: 69%;
+  }
+}

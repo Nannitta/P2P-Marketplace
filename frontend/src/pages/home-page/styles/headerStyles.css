@@ -1,0 +1,6 @@
+.homepage-header {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}

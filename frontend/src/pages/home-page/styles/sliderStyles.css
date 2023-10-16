@@ -1,0 +1,71 @@
+.slider-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-section > h1 {
+  margin: 2rem 0 1.3rem 0;
+  font-weight: 800;
+  letter-spacing: 0.4rem;
+  font-size: 1.8rem;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('../../../assets//left-arrow.svg') !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url('../../../assets/right-arrow.svg') !important;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  height: 346px;
+  width: 3rem;
+  position: absolute;
+}
+
+.carousel-inner, .carousel.slide {
+  width: 984px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.orange-container > p {
+  position: absolute;
+  top: 15%;
+  left: 52%;
+  font-size: 1.3rem;
+  width: 40%;
+  letter-spacing: 3px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.orange-container > a > button {
+  position: relative;
+  bottom: 110px;
+  left: 210px;
+  border-radius: 2.5rem;
+  background-color: var(--mainFontColor);
+  border: none;
+  box-shadow: 0px 4px 4px 0px rgba(64, 61, 57, 0.63);
+  padding: 0.8rem 2rem;
+  font-weight: bold;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.orange-container > a > button:hover {
+  transform: scale(1.1);
+}
