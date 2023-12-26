@@ -1,4 +1,6 @@
 # **P2P - Player2Player**
+
+### Visita el [Sitio Web](https://player2player.vercel.app/) 💻
    
 ## **Descripción del Proyecto:**
 **_P2P - Player2Player_** es una plataforma en línea diseñada para la **compra** y **venta** de videojuegos, consolas y PCs de segunda mano. La plataforma permite a los usuarios buscar productos, registrarse para obtener acceso completo, publicar sus propios productos y llevar a cabo transacciones seguras. El proyecto consta de un frontend interactivo y un backend robusto.
